@@ -16,10 +16,12 @@ Page({
     condition: false
   },
   bindChange: function(e) {
-    //console.log(e);
+    console.log(e);
     var val = e.detail.value
     var t = this.data.values;
     var cityData = this.data.cityData;
+
+    console.log(val)
 
     if (val[0] != t[0]) {
       console.log('province no ');
